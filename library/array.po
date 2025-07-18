@@ -215,7 +215,7 @@ msgstr "注釈:"
 
 #: ../../library/array.rst:53
 msgid "It can be 16 bits or 32 bits depending on the platform."
-msgstr ""
+msgstr "Це може бути 16 або 32 біти залежно від платформи."
 
 #: ../../library/array.rst:55
 msgid ""

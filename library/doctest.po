@@ -1068,6 +1068,9 @@ msgid ""
 "exception message, but such a test may still fail based on whether the "
 "module name is present or matches exactly."
 msgstr ""
+"Зауважте, що :const:`ELLIPSIS` також можна використовувати для ігнорування "
+"деталей повідомлення про винятки, але такий тест все одно може завершитися "
+"невдачею залежно від того, чи присутнє ім’я модуля чи воно точно збігається."
 
 #: ../../library/doctest.rst:650
 msgid ""

@@ -2069,6 +2069,10 @@ msgid ""
 "will catch all messages that were not blocked by a non-propagating "
 "descendent logger."
 msgstr ""
+"Якщо задано, *logger* має бути об’єктом :class:`logging.Logger` або :class:"
+"`str`, що вказує назву реєстратора. За замовчуванням використовується "
+"кореневий реєстратор, який фіксуватиме всі повідомлення, які не були "
+"заблоковані нащадковим реєстратором без розповсюдження."
 
 #: ../../library/unittest.rst:1145 ../../library/unittest.rst:1186
 msgid ""

@@ -223,6 +223,8 @@ msgid ""
 "Raises an :ref:`auditing event <auditing>` ``winreg.DeleteKey`` with "
 "arguments ``key``, ``sub_key``, ``access``."
 msgstr ""
+"Викликає :ref:`подію аудиту <auditing>` ``winreg.DeleteKey`` з аргументами "
+"``key``, ``sub_key``, ``access``."
 
 #: ../../library/winreg.rst:150
 msgid ""
@@ -1172,6 +1174,8 @@ msgid ""
 "Raises an :ref:`auditing event <auditing>` ``winreg.PyHKEY.Detach`` with "
 "argument ``key``."
 msgstr ""
+"Викликає :ref:`подію аудиту <auditing>` ``winreg.PyHKEY.Detach`` з "
+"аргументом ``key``."
 
 #: ../../library/winreg.rst:790
 msgid ""

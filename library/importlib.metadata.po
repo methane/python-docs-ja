@@ -612,7 +612,7 @@ msgstr ""
 
 #: ../../library/importlib.metadata.rst:403
 msgid "Distributions"
-msgstr ""
+msgstr "Розподіл"
 
 #: ../../library/importlib.metadata.rst:407
 msgid ""

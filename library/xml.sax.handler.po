@@ -264,7 +264,7 @@ msgstr "値: ``\"http://xml.org/sax/properties/xml-string\"``"
 
 #: ../../library/xml.sax.handler.rst:150
 msgid "data type: Bytes"
-msgstr ""
+msgstr "тип даних: байти"
 
 #: ../../library/xml.sax.handler.rst:152
 msgid ""

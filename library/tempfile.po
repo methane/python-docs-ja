@@ -141,6 +141,8 @@ msgid ""
 "On platforms that are neither Posix nor Cygwin, TemporaryFile is an alias "
 "for NamedTemporaryFile."
 msgstr ""
+"На платформах, які не є ні Posix, ні Cygwin, TemporaryFile є псевдонімом для "
+"NamedTemporaryFile."
 
 #: ../../library/tempfile.rst:68 ../../library/tempfile.rst:137
 #: ../../library/tempfile.rst:264

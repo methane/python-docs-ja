@@ -198,7 +198,7 @@ msgstr "**脆弱**"
 
 #: ../../library/xml.rst:71 ../../library/xml.rst:123
 msgid "large tokens"
-msgstr ""
+msgstr "крупные токены"
 
 #: ../../library/xml.rst:71
 msgid "**Vulnerable** (6)"

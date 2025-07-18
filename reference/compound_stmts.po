@@ -2002,6 +2002,8 @@ msgid ""
 "The ``/`` function parameter syntax may be used to indicate positional-only "
 "parameters. See :pep:`570` for details."
 msgstr ""
+"Синтаксис параметра функції ``/`` може використовуватися для позначення лише "
+"позиційних параметрів. Подробиці див. :pep:`570`."
 
 #: ../../reference/compound_stmts.rst:1337
 msgid ""

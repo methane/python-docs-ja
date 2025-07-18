@@ -49,6 +49,10 @@ msgid ""
 "module. The path parameters can be passed as strings, or bytes, or any "
 "object implementing the :class:`os.PathLike` protocol."
 msgstr ""
+"Цей модуль реалізує деякі корисні функції для шляхів. Щоб прочитати або "
+"записати файли, перегляньте :func:`open`, а для доступу до файлової системи "
+"перегляньте модуль :mod:`os`. Параметри шляху можна передати як рядки, або "
+"байти, або будь-який об’єкт, що реалізує протокол :class:`os.PathLike`."
 
 #: ../../library/os.path.rst:19
 msgid ""
@@ -542,12 +546,17 @@ msgid ""
 "canonical, which differs slightly between Windows and UNIX with respect to "
 "how links and subsequent path components interact."
 msgstr ""
+"Ця функція емулює процедуру операційної системи, щоб зробити шлях "
+"канонічним, який дещо відрізняється між Windows і UNIX стосовно того, як "
+"взаємодіють посилання та наступні компоненти шляху."
 
 #: ../../library/os.path.rst:420
 msgid ""
 "Operating system APIs make paths canonical as needed, so it's not normally "
 "necessary to call this function."
 msgstr ""
+"API операційної системи роблять шляхи канонічними за потреби, тому зазвичай "
+"не потрібно викликати цю функцію."
 
 #: ../../library/os.path.rst:426
 msgid "Symbolic links and junctions are now resolved on Windows."
@@ -728,10 +737,13 @@ msgid ""
 "ext == path``, and the extension, *ext*, is empty or begins with a period "
 "and contains at most one period."
 msgstr ""
+"Розділіть назву шляху *path* на пару ``(root, ext)`` таким чином, ``root + "
+"ext == path``, а розширення *ext* буде порожнім або починається з крапки та "
+"містить щонайбільше один період."
 
 #: ../../library/os.path.rst:568
 msgid "If the path contains no extension, *ext* will be ``''``::"
-msgstr ""
+msgstr "Якщо шлях не містить розширення, *ext* буде ``''``::"
 
 #: ../../library/os.path.rst:570
 msgid ""
@@ -744,6 +756,9 @@ msgid ""
 "If the path contains an extension, then *ext* will be set to this extension, "
 "including the leading period. Note that previous periods will be ignored::"
 msgstr ""
+"Якщо шлях містить розширення, то *ext* буде встановлено для цього "
+"розширення, включаючи початкову точку. Зауважте, що попередні періоди "
+"ігноруватимуться:"
 
 #: ../../library/os.path.rst:576
 msgid ""
@@ -758,6 +773,7 @@ msgid ""
 "Leading periods of the last component of the path are considered to be part "
 "of the root::"
 msgstr ""
+"Початкові періоди останнього компонента шляху вважаються частиною кореня::"
 
 #: ../../library/os.path.rst:584
 msgid ""

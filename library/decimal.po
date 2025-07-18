@@ -2119,6 +2119,8 @@ msgid ""
 "``Decimal(0) ** Decimal(0)`` results in ``InvalidOperation``, and if "
 "``InvalidOperation`` is not trapped, then results in ``Decimal('NaN')``."
 msgstr ""
+"``Decimal(0) ** Decimal(0)`` призводить до ``InvalidOperation``, і якщо "
+"``InvalidOperation`` не перехоплюється, то призводить до ``Decimal('NaN')``."
 
 #: ../../library/decimal.rst:1472
 msgid ""
@@ -3283,8 +3285,13 @@ msgid ""
 "recommended to estimate even tighter bounds and set the :attr:`Inexact` trap "
 "if all calculations are expected to be exact."
 msgstr ""
+"Загалом (і особливо в системах без загального розподілу) рекомендується "
+"оцінювати ще більш жорсткі межі та встановлювати пастку :attr:`Inexact`, "
+"якщо очікується, що всі обчислення будуть точними."
 
 #: ../../library/decimal.rst:2336
 msgid ""
 "This approach now works for all exact results except for non-integer powers."
 msgstr ""
+"Цей підхід тепер працює для всіх точних результатів, за винятком нецілих "
+"степенів."

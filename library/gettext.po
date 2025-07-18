@@ -175,6 +175,9 @@ msgid ""
 "is, :func:`gettext`, :func:`dgettext`, :func:`ngettext`, :func:`dngettext`), "
 "but the translation is restricted to the given message *context*."
 msgstr ""
+"Подібно до відповідних функцій без ``p`` у префіксі (тобто :func:`gettext`, :"
+"func:`dgettext`, :func:`ngettext`, :func:`dngettext`), але переклад обмежено "
+"даним *контекстом* повідомлення."
 
 #: ../../library/gettext.rst:101
 msgid ""

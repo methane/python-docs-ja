@@ -54,6 +54,10 @@ msgid ""
 "Parser` class.  It is derived from :exc:`MessageError`.  This class is also "
 "used internally by the parser used by :mod:`~email.headerregistry`."
 msgstr ""
+"Це базовий клас для винятків, викликаних класом :class:`~email.parser."
+"Parser`. Він походить від :exc:`MessageError`. Цей клас також "
+"використовується внутрішньо аналізатором, який використовує :mod:`~email."
+"headerregistry`."
 
 #: ../../library/email.errors.rst:31
 msgid ""
@@ -66,10 +70,18 @@ msgid ""
 "header (that is, there is what is supposed to be a continuation line that "
 "has no leading whitespace and looks like a header)."
 msgstr ""
+"Виникає за деяких умов помилки під час аналізу заголовків :rfc:`5322` "
+"повідомлення, цей клас походить від :exc:`MessageParseError`. Метод :meth:"
+"`~email.message.EmailMessage.set_boundary` викличе цю помилку, якщо під час "
+"виклику методу тип вмісту невідомий. :class:`~email.header.Header` може "
+"викликати цю помилку для певних помилок декодування base64, а також коли "
+"робиться спроба створити заголовок, який, здається, містить вбудований "
+"заголовок (тобто, є те, що має бути рядок продовження, який не має "
+"початкових пробілів і виглядає як заголовок)."
 
 #: ../../library/email.errors.rst:43
 msgid "Deprecated and no longer used."
-msgstr ""
+msgstr "Застарілий і більше не використовується."
 
 #: ../../library/email.errors.rst:48
 msgid ""
@@ -84,6 +96,8 @@ msgstr ""
 msgid ""
 "Raised when an error occurs when the :mod:`~email.generator` outputs headers."
 msgstr ""
+"Возникает, когда возникает ошибка, когда :mod:`~email.generator` выводит "
+"заголовки."
 
 #: ../../library/email.errors.rst:64
 msgid ""

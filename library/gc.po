@@ -367,6 +367,8 @@ msgid ""
 "Returns ``True`` if the given object has been finalized by the garbage "
 "collector, ``False`` otherwise. ::"
 msgstr ""
+"Повертає ``True``, якщо даний об’єкт був завершений збирачем сміття, "
+"``False`` інакше. ::"
 
 #: ../../library/gc.rst:222
 msgid ""

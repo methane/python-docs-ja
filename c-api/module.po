@@ -311,7 +311,7 @@ msgstr ""
 #: ../../c-api/module.rst:213 ../../c-api/module.rst:234
 #: ../../c-api/module.rst:249
 msgid "No longer called before the module state is allocated."
-msgstr ""
+msgstr "Більше не викликається до виділення стану модуля."
 
 #: ../../c-api/module.rst:218
 msgid ""
@@ -329,6 +329,11 @@ msgid ""
 "collector is not involved and :c:member:`~PyModuleDef.m_free` is called "
 "directly."
 msgstr ""
+"Як і :c:member:`PyTypeObject.tp_clear`, ця функція не *завжди* викликається "
+"до того, як модуль буде звільнено. Наприклад, коли підрахунку посилань "
+"достатньо, щоб визначити, що об’єкт більше не використовується, циклічний "
+"збирач сміття не задіяний і :c:member:`~PyModuleDef.m_free` викликається "
+"безпосередньо."
 
 #: ../../c-api/module.rst:239
 msgid ""

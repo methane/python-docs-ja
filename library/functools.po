@@ -758,6 +758,9 @@ msgid ""
 "decorator. When defining a function using ``@singledispatch``, note that the "
 "dispatch happens on the type of the first argument::"
 msgstr ""
+"Щоб визначити загальну функцію, прикрасьте її за допомогою декоратора "
+"``@singledispatch``. Визначаючи функцію за допомогою ``@singledispatch``, "
+"зауважте, що відправлення відбувається за типом першого аргументу::"
 
 #: ../../library/functools.rst:495
 msgid ""
@@ -1026,6 +1029,10 @@ msgid ""
 "that the dispatch happens on the type of the first non-*self* or non-*cls* "
 "argument::"
 msgstr ""
+"Щоб визначити загальний метод, прикрасьте його декоратором "
+"``@singledispatchmethod``. Визначаючи функцію за допомогою "
+"``@singledispatchmethod``, зауважте, що відправлення відбувається за типом "
+"першого не*self* або не*cls* аргументу::"
 
 #: ../../library/functools.rst:670
 msgid ""

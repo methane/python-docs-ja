@@ -587,10 +587,13 @@ msgid ""
 "shown, followed by a summary line stating the exact number of further "
 "repetitions."
 msgstr ""
+"Для довгих послідовностей того самого кадру та рядка відображаються перші "
+"кілька повторів, за якими йде підсумковий рядок із зазначенням точної "
+"кількості подальших повторень."
 
 #: ../../library/traceback.rst:489
 msgid "Long sequences of repeated frames are now abbreviated."
-msgstr ""
+msgstr "Довгі послідовності повторюваних кадрів тепер скорочуються."
 
 #: ../../library/traceback.rst:494
 msgid ""

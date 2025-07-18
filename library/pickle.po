@@ -1625,6 +1625,8 @@ msgid ""
 "does the same but all instances of ``MyPickler`` will by default share the "
 "private dispatch table.  On the other hand, the code ::"
 msgstr ""
+"робить те саме, але всі екземпляри ``MyPickler`` за замовчуванням спільно "
+"використовуватимуть приватну таблицю відправлення. З іншого боку, код ::"
 
 #: ../../library/pickle.rst:837
 msgid ""
@@ -1638,6 +1640,8 @@ msgid ""
 "modifies the global dispatch table shared by all users of the :mod:`copyreg` "
 "module."
 msgstr ""
+"змінює глобальну таблицю відправлення, яку використовують усі користувачі "
+"модуля :mod:`copyreg`."
 
 #: ../../library/pickle.rst:846
 msgid "Handling Stateful Objects"
