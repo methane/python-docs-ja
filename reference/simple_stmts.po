@@ -789,6 +789,10 @@ msgid ""
 "If there isn't currently an active exception, a :exc:`RuntimeError` "
 "exception is raised indicating that this is an error."
 msgstr ""
+"Якщо виразів немає, :keyword:`raise` повторно викликає виняток, який зараз "
+"обробляється, який також відомий як *активний виняток*. Якщо наразі немає "
+"активного винятку, виникає виняток :exc:`RuntimeError`, який вказує на те, "
+"що це помилка."
 
 #: ../../reference/simple_stmts.rst:575
 msgid ""
@@ -1230,6 +1234,8 @@ msgid ""
 "``module``, ``filename``, ``sys.path``, ``sys.meta_path``, ``sys."
 "path_hooks``."
 msgstr ""
+"Викликає :ref:`подію аудиту <auditing>` ``import`` з аргументами ``module``, "
+"``filename``, ``sys.path``, ``sys.meta_path``, ``sys.path_hooks``."
 
 #: ../../reference/simple_stmts.rst:873
 msgid "Future statements"

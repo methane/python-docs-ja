@@ -177,6 +177,7 @@ msgid ""
 "Convert a sequence of Unicode digits in the string *u* to a Python integer "
 "value."
 msgstr ""
+"Перетворіть послідовність цифр Unicode у рядку *u* на ціле число Python."
 
 #: ../../c-api/long.rst:132
 msgid ""

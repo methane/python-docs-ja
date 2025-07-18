@@ -463,6 +463,11 @@ msgid ""
 "process.stderr.read() <stderr>`. This avoids deadlocks due to streams "
 "pausing reading or writing and blocking the child process."
 msgstr ""
+"Використовуйте метод :meth:`communicate` замість :attr:`process.stdin."
+"write() <stdin>`, :attr:`await process.stdout.read() <stdout>` або :attr:"
+"`await process.stderr.read () <stderr>`. Це дозволяє уникнути "
+"взаємоблокувань через те, що потоки призупиняють читання або запис і "
+"блокують дочірній процес."
 
 #: ../../library/asyncio-subprocess.rst:297
 msgid "Process identification number (PID)."

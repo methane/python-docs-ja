@@ -992,10 +992,11 @@ msgstr "例:"
 #: ../../library/math.rst:401
 msgid "``math.nextafter(x, math.inf)`` goes up: towards positive infinity."
 msgstr ""
+"``math.nextafter(x, math.inf)`` йде вгору: до позитивної нескінченності."
 
 #: ../../library/math.rst:402
 msgid "``math.nextafter(x, -math.inf)`` goes down: towards minus infinity."
-msgstr ""
+msgstr "``math.nextafter(x, -math.inf)`` йде вниз: до мінус нескінченності."
 
 #: ../../library/math.rst:403
 msgid "``math.nextafter(x, 0.0)`` goes towards zero."

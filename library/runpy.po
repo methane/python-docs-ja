@@ -127,6 +127,8 @@ msgid ""
 "``__file__``, ``__cached__``, ``__loader__`` and ``__package__`` are :ref:"
 "`set as normal <import-mod-attrs>` based on the module spec."
 msgstr ""
+"``__file__``, ``__cached__``, ``__loader__`` і ``__package__`` :ref:"
+"`встановлені як звичайні <import-mod-attrs>` на основі специфікації модуля."
 
 #: ../../library/runpy.rst:69
 msgid ""
@@ -174,6 +176,10 @@ msgid ""
 "well as ensuring the real module name is always accessible as ``__spec__."
 "name``."
 msgstr ""
+"Оновлено, щоб скористатися перевагами функції специфікації модуля, доданої :"
+"pep:`451`. Це дозволяє правильно встановити ``__cached__`` для модулів, що "
+"запускаються таким чином, а також гарантує, що справжня назва модуля завжди "
+"доступна як ``__spec__.name``."
 
 #: ../../library/runpy.rst:96
 msgid ""

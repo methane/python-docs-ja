@@ -1706,6 +1706,9 @@ msgid ""
 "strings or tuples.  The *string* is scanned left-to-right, and matches are "
 "returned in the order found.  Empty matches are included in the result."
 msgstr ""
+"Повертає всі неперекриваючі збіги *шаблону* в *рядку* у вигляді списку "
+"рядків або кортежів. *Рядок* сканується зліва направо, і збіги повертаються "
+"в порядку знайдення. Порожні збіги включаються в результат."
 
 #: ../../library/re.rst:1028
 msgid ""
@@ -1716,6 +1719,11 @@ msgid ""
 "matching the groups.  Non-capturing groups do not affect the form of the "
 "result."
 msgstr ""
+"Результат залежить від кількості груп захоплення в шаблоні. Якщо груп немає, "
+"поверніть список рядків, які відповідають повному шаблону. Якщо існує рівно "
+"одна група, поверніть список рядків, які відповідають цій групі. Якщо "
+"присутні кілька груп, поверніть список кортежів рядків, які відповідають "
+"групам. Незахоплюючі групи не впливають на форму результату."
 
 #: ../../library/re.rst:1044 ../../library/re.rst:1059
 msgid "Non-empty matches can now start just after a previous empty match."

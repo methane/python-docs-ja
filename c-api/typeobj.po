@@ -153,7 +153,7 @@ msgstr ":c:member:`~PyTypeObject.tp_basicsize`"
 #: ../../c-api/typeobj.rst:99 ../../c-api/typeobj.rst:120
 #: ../../c-api/typeobj.rst:417
 msgid ":c:type:`Py_ssize_t`"
-msgstr ""
+msgstr ":c:type:`Py_ssize_t`"
 
 #: ../../c-api/typeobj.rst:48
 msgid ":c:member:`~PyTypeObject.tp_itemsize`"
@@ -640,6 +640,7 @@ msgstr ""
 #: ../../c-api/typeobj.rst:170
 msgid "**\"D\"**:  default (if slot is set to ``NULL``)"
 msgstr ""
+"**\"D\"**: за умовчанням (якщо для слота встановлено значення ``NULL``)"
 
 #: ../../c-api/typeobj.rst:172
 msgid ""
@@ -652,7 +653,7 @@ msgstr ""
 
 #: ../../c-api/typeobj.rst:180
 msgid "**\"I\"**:  inheritance"
-msgstr ""
+msgstr "**\"I\"**: наслідування"
 
 #: ../../c-api/typeobj.rst:182
 msgid ""
@@ -669,6 +670,8 @@ msgid ""
 "Note that some slots are effectively inherited through the normal attribute "
 "lookup chain."
 msgstr ""
+"Зверніть увагу, що деякі слоти фактично успадковуються через звичайний "
+"ланцюжок пошуку атрибутів."
 
 #: ../../c-api/typeobj.rst:195
 msgid "sub-slots"
@@ -771,7 +774,7 @@ msgstr ":c:member:`~PyNumberMethods.nb_inplace_subtract`"
 
 #: ../../c-api/typeobj.rst:222
 msgid "__isub__"
-msgstr ""
+msgstr "__isub__"
 
 #: ../../c-api/typeobj.rst:224
 msgid ":c:member:`~PyNumberMethods.nb_multiply`"
@@ -803,7 +806,7 @@ msgstr ":c:member:`~PyNumberMethods.nb_inplace_remainder`"
 
 #: ../../c-api/typeobj.rst:232
 msgid "__imod__"
-msgstr ""
+msgstr "__imod__"
 
 #: ../../c-api/typeobj.rst:234
 msgid ":c:member:`~PyNumberMethods.nb_divmod`"
@@ -827,7 +830,7 @@ msgstr ":c:member:`~PyNumberMethods.nb_inplace_power`"
 
 #: ../../c-api/typeobj.rst:240
 msgid "__ipow__"
-msgstr ""
+msgstr "__ipow__"
 
 #: ../../c-api/typeobj.rst:242
 msgid ":c:member:`~PyNumberMethods.nb_negative`"
@@ -883,7 +886,7 @@ msgstr ":c:member:`~PyNumberMethods.nb_inplace_lshift`"
 
 #: ../../c-api/typeobj.rst:255
 msgid "__ilshift__"
-msgstr ""
+msgstr "__ilshift__"
 
 #: ../../c-api/typeobj.rst:257
 msgid ":c:member:`~PyNumberMethods.nb_rshift`"
@@ -899,7 +902,7 @@ msgstr ":c:member:`~PyNumberMethods.nb_inplace_rshift`"
 
 #: ../../c-api/typeobj.rst:260
 msgid "__irshift__"
-msgstr ""
+msgstr "__irshift__"
 
 #: ../../c-api/typeobj.rst:262
 msgid ":c:member:`~PyNumberMethods.nb_and`"
@@ -915,7 +918,7 @@ msgstr ":c:member:`~PyNumberMethods.nb_inplace_and`"
 
 #: ../../c-api/typeobj.rst:265
 msgid "__iand__"
-msgstr ""
+msgstr "__iand__"
 
 #: ../../c-api/typeobj.rst:267
 msgid ":c:member:`~PyNumberMethods.nb_xor`"
@@ -931,7 +934,7 @@ msgstr ":c:member:`~PyNumberMethods.nb_inplace_xor`"
 
 #: ../../c-api/typeobj.rst:270
 msgid "__ixor__"
-msgstr ""
+msgstr "__ixor__"
 
 #: ../../c-api/typeobj.rst:272
 msgid ":c:member:`~PyNumberMethods.nb_or`"
@@ -947,7 +950,7 @@ msgstr ":c:member:`~PyNumberMethods.nb_inplace_or`"
 
 #: ../../c-api/typeobj.rst:275
 msgid "__ior__"
-msgstr ""
+msgstr "__ior__"
 
 #: ../../c-api/typeobj.rst:277
 msgid ":c:member:`~PyNumberMethods.nb_int`"
@@ -983,7 +986,7 @@ msgstr ":c:member:`~PyNumberMethods.nb_inplace_floor_divide`"
 
 #: ../../c-api/typeobj.rst:285
 msgid "__ifloordiv__"
-msgstr ""
+msgstr "__ifloordiv__"
 
 #: ../../c-api/typeobj.rst:287
 msgid ":c:member:`~PyNumberMethods.nb_true_divide`"
@@ -999,7 +1002,7 @@ msgstr ":c:member:`~PyNumberMethods.nb_inplace_true_divide`"
 
 #: ../../c-api/typeobj.rst:289
 msgid "__itruediv__"
-msgstr ""
+msgstr "__itruediv__"
 
 #: ../../c-api/typeobj.rst:291
 msgid ":c:member:`~PyNumberMethods.nb_index`"
@@ -1023,7 +1026,7 @@ msgstr ":c:member:`~PyNumberMethods.nb_inplace_matrix_multiply`"
 
 #: ../../c-api/typeobj.rst:296
 msgid "__imatmul__"
-msgstr ""
+msgstr "__imatmul__"
 
 #: ../../c-api/typeobj.rst:300
 msgid ":c:member:`~PyMappingMethods.mp_length`"
@@ -1195,7 +1198,7 @@ msgstr ":c:type:`releasebufferproc`"
 
 #: ../../c-api/typeobj.rst:470
 msgid "See :ref:`slot-typedefs` below for more detail."
-msgstr ""
+msgstr "Дивіться :ref:`slot-typedefs` нижче, щоб дізнатися більше."
 
 #: ../../c-api/typeobj.rst:474
 msgid "PyTypeObject Definition"
@@ -1490,6 +1493,8 @@ msgid ""
 "`PyTypeObject` (other than potentially :c:member:`~PyTypeObject."
 "tp_itemsize`)."
 msgstr ""
+"Це поле не має бути ``NULL``. Це єдине обов’язкове поле в :c:func:"
+"`PyTypeObject` (окрім потенційно :c:member:`~PyTypeObject.tp_itemsize`)."
 
 #: ../../c-api/typeobj.rst:596
 msgid ""
@@ -1777,6 +1782,9 @@ msgid ""
 "object using the :ref:`vectorcall protocol <vectorcall>`, a more efficient "
 "alternative of the simpler :c:member:`~PyTypeObject.tp_call`."
 msgstr ""
+"Необов’язкове зміщення функції для кожного екземпляра, яка реалізує виклик "
+"об’єкта за допомогою :ref:`vectorcall протоколу <vectorcall>`, більш "
+"ефективної альтернативи простішого :c:member:`~PyTypeObject.tp_call`."
 
 #: ../../c-api/typeobj.rst:804
 msgid ""
@@ -1799,12 +1807,19 @@ msgid ""
 "*vectorcallfunc* function. This can be done by setting *tp_call* to :c:func:"
 "`PyVectorcall_Call`."
 msgstr ""
+"Будь-який клас, який встановлює ``Py_TPFLAGS_HAVE_VECTORCALL``, також "
+"повинен встановити :c:member:`~PyTypeObject.tp_call` і переконатися, що його "
+"поведінка узгоджується з функцією *vectorcallfunc*. Це можна зробити, "
+"встановивши *tp_call* на :c:func:`PyVectorcall_Call`."
 
 #: ../../c-api/typeobj.rst:819
 msgid ""
 "Before version 3.8, this slot was named ``tp_print``. In Python 2.x, it was "
 "used for printing to a file. In Python 3.0 to 3.7, it was unused."
 msgstr ""
+"До версії 3.8 цей слот мав назву ``tp_print``. У Python 2.x він "
+"використовувався для друку у файл. У Python від 3.0 до 3.7 він не "
+"використовувався."
 
 #: ../../c-api/typeobj.rst:825
 msgid ""
@@ -1931,7 +1946,7 @@ msgstr ""
 
 #: ../../c-api/typeobj.rst:898
 msgid "The signature is the same as for :c:func:`PyObject_Repr`::"
-msgstr ""
+msgstr "Підпис такий самий, як і для :c:func:`PyObject_Repr`::"
 
 #: ../../c-api/typeobj.rst:900
 msgid "PyObject *tp_repr(PyObject *self);"
@@ -2033,7 +2048,7 @@ msgstr ""
 
 #: ../../c-api/typeobj.rst:963
 msgid "The signature is the same as for :c:func:`PyObject_Hash`::"
-msgstr ""
+msgstr "Підпис такий самий, як і для :c:func:`PyObject_Hash`::"
 
 #: ../../c-api/typeobj.rst:965
 msgid "Py_hash_t tp_hash(PyObject *);"
@@ -2128,7 +2143,7 @@ msgstr ""
 
 #: ../../c-api/typeobj.rst:1017
 msgid "The signature is the same as for :c:func:`PyObject_Str`::"
-msgstr ""
+msgstr "Підпис такий самий, як і для :c:func:`PyObject_Str`::"
 
 #: ../../c-api/typeobj.rst:1019
 msgid "PyObject *tp_str(PyObject *self);"
@@ -2160,7 +2175,7 @@ msgstr "オプションのポインタで、get-attribute を実装している�
 
 #: ../../c-api/typeobj.rst:1039
 msgid "The signature is the same as for :c:func:`PyObject_GetAttr`::"
-msgstr ""
+msgstr "Підпис такий самий, як і для :c:func:`PyObject_GetAttr`::"
 
 #: ../../c-api/typeobj.rst:1041
 msgid "PyObject *tp_getattro(PyObject *self, PyObject *attr);"
@@ -2195,7 +2210,7 @@ msgstr ""
 
 #: ../../c-api/typeobj.rst:1063
 msgid "The signature is the same as for :c:func:`PyObject_SetAttr`::"
-msgstr ""
+msgstr "Підпис такий самий, як і для :c:func:`PyObject_SetAttr`::"
 
 #: ../../c-api/typeobj.rst:1065
 msgid "int tp_setattro(PyObject *self, PyObject *attr, PyObject *value);"
@@ -2293,7 +2308,7 @@ msgstr ""
 
 #: ../../c-api/typeobj.rst:1127
 msgid "**Bit Masks:**"
-msgstr ""
+msgstr "**Bit Masks:**"
 
 #: ../../c-api/typeobj.rst:1131
 msgid ""
@@ -2325,7 +2340,7 @@ msgstr ""
 #: ../../c-api/typeobj.rst:1170 ../../c-api/typeobj.rst:1180
 #: ../../c-api/typeobj.rst:1212
 msgid "???"
-msgstr ""
+msgstr "???"
 
 #: ../../c-api/typeobj.rst:1154
 msgid ""
@@ -2389,23 +2404,27 @@ msgstr ""
 
 #: ../../c-api/typeobj.rst:1217
 msgid "This bit indicates that objects behave like unbound methods."
-msgstr ""
+msgstr "Цей біт вказує, що об’єкти поводяться як незв’язані методи."
 
 #: ../../c-api/typeobj.rst:1219
 msgid "If this flag is set for ``type(meth)``, then:"
-msgstr ""
+msgstr "Якщо цей прапор встановлено для ``type(meth)``, тоді:"
 
 #: ../../c-api/typeobj.rst:1221
 msgid ""
 "``meth.__get__(obj, cls)(*args, **kwds)`` (with ``obj`` not None) must be "
 "equivalent to ``meth(obj, *args, **kwds)``."
 msgstr ""
+"``meth.__get__(obj, cls)(*args, **kwds)`` (з ``obj`` не None) має бути "
+"еквівалентним ``meth(obj, *args, **kwds)``."
 
 #: ../../c-api/typeobj.rst:1224
 msgid ""
 "``meth.__get__(None, cls)(*args, **kwds)`` must be equivalent to "
 "``meth(*args, **kwds)``."
 msgstr ""
+"``meth.__get__(None, cls)(*args, **kwds)`` має бути еквівалентним "
+"``meth(*args, **kwds)``."
 
 #: ../../c-api/typeobj.rst:1227
 msgid ""
@@ -2413,6 +2432,9 @@ msgid ""
 "meth()``: it avoids creating a temporary \"bound method\" object for ``obj."
 "meth``."
 msgstr ""
+"Цей прапорець дає змогу оптимізувати типові виклики методів, як-от ``obj."
+"meth()``: він уникає створення тимчасового об’єкта \"зв’язаного методу\" для "
+"``obj.meth``."
 
 #: ../../c-api/typeobj.rst:1235
 msgid ""
@@ -2508,6 +2530,8 @@ msgid ""
 "This flag isn't necessary anymore, as the interpreter assumes the :c:member:"
 "`~PyTypeObject.tp_finalize` slot is always present in the type structure."
 msgstr ""
+"Цей прапорець більше не потрібен, оскільки інтерпретатор припускає, що слот :"
+"c:member:`~PyTypeObject.tp_finalize` завжди присутній у структурі типу."
 
 #: ../../c-api/typeobj.rst:1326
 msgid ""
@@ -2515,6 +2539,9 @@ msgid ""
 "<vectorcall>`. See :c:member:`~PyTypeObject.tp_vectorcall_offset` for "
 "details."
 msgstr ""
+"Цей біт встановлюється, коли клас реалізує :ref:`vectorcall протокол "
+"<vectorcall>`. Перегляньте :c:member:`~PyTypeObject.tp_vectorcall_offset` "
+"для деталей."
 
 #: ../../c-api/typeobj.rst:1332
 msgid ""
@@ -2778,6 +2805,9 @@ msgid ""
 "``tp_traverse``.  In earlier versions of Python, due to `bug 40217 <https://"
 "bugs.python.org/issue40217>`_, doing this may lead to crashes in subclasses."
 msgstr ""
+"Очікується, що типи, виділені в купі, відвідуватимуть ``Py_TYPE(self)`` у "
+"``tp_traverse``. У попередніх версіях Python, через `помилку 40217 <https://"
+"bugs.python.org/issue40217>`_, це може призвести до збоїв у підкласах."
 
 #: ../../c-api/typeobj.rst:1543
 msgid ""
@@ -3015,6 +3045,8 @@ msgid ""
 "The first parameter is guaranteed to be an instance of the type that is "
 "defined by :c:type:`PyTypeObject`."
 msgstr ""
+"Перший параметр гарантовано є екземпляром типу, визначеного :c:type:"
+"`PyTypeObject`."
 
 #: ../../c-api/typeobj.rst:1706
 msgid ""
@@ -3328,6 +3360,10 @@ msgid ""
 "like :c:func:`PyType_GenericNew`, with implicit conversion to a pointer, are "
 "valid C99 address constants."
 msgstr ""
+"Ініціалізація слота підпорядковується правилам ініціалізації глобалів. C99 "
+"вимагає, щоб ініціалізатори були \"константами адреси\". Позначення функцій, "
+"такі як :c:func:`PyType_GenericNew`, з неявним перетворенням на вказівник, є "
+"дійсними константами адрес C99."
 
 #: ../../c-api/typeobj.rst:1895
 msgid ""
@@ -3342,6 +3378,8 @@ msgid ""
 "Consequently, :c:member:`~PyTypeObject.tp_base` should be set in the "
 "extension module's init function."
 msgstr ""
+"Отже, :c:member:`~PyTypeObject.tp_base` має бути встановлено у функції "
+"ініціалізації модуля розширення."
 
 #: ../../c-api/typeobj.rst:1906
 msgid "This field is not inherited by subtypes (obviously)."
@@ -3397,6 +3435,8 @@ msgid ""
 "If this field is ``NULL``, :c:func:`PyType_Ready` will assign a new "
 "dictionary to it."
 msgstr ""
+"Якщо це поле має значення ``NULL``, :c:func:`PyType_Ready` призначить йому "
+"новий словник."
 
 #: ../../c-api/typeobj.rst:1948
 msgid ""
@@ -4113,23 +4153,31 @@ msgid ""
 "type:`PyTypeObject` structure is defined directly in code and initialized "
 "using :c:func:`PyType_Ready`."
 msgstr ""
+"Традиційно типи, визначені в коді C, є *статичними*, тобто статична "
+"структура :c:type:`PyTypeObject` визначається безпосередньо в коді та "
+"ініціалізується за допомогою :c:func:`PyType_Ready`."
 
 #: ../../c-api/typeobj.rst:2493
 msgid ""
 "This results in types that are limited relative to types defined in Python:"
 msgstr ""
+"Це призводить до типів, які обмежені відносно типів, визначених у Python:"
 
 #: ../../c-api/typeobj.rst:2495
 msgid ""
 "Static types are limited to one base, i.e. they cannot use multiple "
 "inheritance."
 msgstr ""
+"Статичні типи обмежені однією базою, тобто вони не можуть використовувати "
+"множинне успадкування."
 
 #: ../../c-api/typeobj.rst:2497
 msgid ""
 "Static type objects (but not necessarily their instances) are immutable. It "
 "is not possible to add or modify the type object's attributes from Python."
 msgstr ""
+"Об’єкти статичного типу (але не обов’язково їх екземпляри) незмінні. "
+"Неможливо додати або змінити атрибути об’єкта типу з Python."
 
 #: ../../c-api/typeobj.rst:2499
 msgid ""
@@ -4137,6 +4185,9 @@ msgid ""
 "interpreter-support>`, so they should not include any subinterpreter-"
 "specific state."
 msgstr ""
+"Об’єкти статичного типу є спільними для :ref:`суб-інтерпретаторів <sub-"
+"interpreter-support>`, тому вони не повинні включати будь-який стан, "
+"специфічний для субінтерпретатора."
 
 #: ../../c-api/typeobj.rst:2503
 msgid ""
@@ -4147,7 +4198,7 @@ msgstr ""
 
 #: ../../c-api/typeobj.rst:2511
 msgid "Heap Types"
-msgstr ""
+msgstr "Типи купи"
 
 #: ../../c-api/typeobj.rst:2513
 msgid ""
@@ -4315,6 +4366,10 @@ msgid ""
 "negative indices via the :c:member:`~PySequenceMethods.sq_item` and the :c:"
 "member:`~PySequenceMethods.sq_ass_item` slots."
 msgstr ""
+"Ця функція використовується :c:func:`PySequence_Size` і :c:func:"
+"`PyObject_Size` і має однакову сигнатуру. Він також використовується для "
+"обробки негативних індексів через слоти :c:member:`~PySequenceMethods."
+"sq_item` і :c:member:`~PySequenceMethods.sq_ass_item`."
 
 #: ../../c-api/typeobj.rst:2696
 msgid ""
@@ -4344,6 +4399,11 @@ msgid ""
 "slot must be filled for the :c:func:`PySequence_Check` function to return "
 "``1``, it can be ``NULL`` otherwise."
 msgstr ""
+"Ця функція використовується :c:func:`PySequence_GetItem` і має такий самий "
+"підпис. Він також використовується :c:func:`PyObject_GetItem` після спроби "
+"підписки через слот :c:member:`~PyMappingMethods.mp_subscript`. Цей слот має "
+"бути заповнений, щоб функція :c:func:`PySequence_Check` повертала ``1``, "
+"інакше вона може бути ``NULL``."
 
 #: ../../c-api/typeobj.rst:2714
 msgid ""
@@ -4362,6 +4422,11 @@ msgid ""
 "member:`~PyMappingMethods.mp_ass_subscript` slot. This slot may be left to "
 "``NULL`` if the object does not support item assignment and deletion."
 msgstr ""
+"Ця функція використовується :c:func:`PySequence_SetItem` і має такий самий "
+"підпис. Він також використовується :c:func:`PyObject_SetItem` і :c:func:"
+"`PyObject_DelItem` після спроби призначення та видалення елемента через "
+"слот :c:member:`~PyMappingMethods.mp_ass_subscript`. Цей слот можна залишити "
+"``NULL``, якщо об’єкт не підтримує призначення та видалення елементів."
 
 #: ../../c-api/typeobj.rst:2730
 msgid ""
@@ -4383,6 +4448,12 @@ msgid ""
 "augmented assignment ``+=``, after trying numeric in-place addition via the :"
 "c:member:`~PyNumberMethods.nb_inplace_add` slot."
 msgstr ""
+"Ця функція використовується :c:func:`PySequence_InPlaceConcat` і має такий "
+"самий підпис. Він повинен змінити свій перший операнд і повернути його. Цей "
+"слот можна залишити ``NULL``, у цьому випадку :c:func:`!"
+"PySequence_InPlaceConcat` повернеться до :c:func:`PySequence_Concat`. Він "
+"також використовується розширеним призначенням ``+=`` після спроби додавання "
+"чисел на місці через слот :c:member:`~PyNumberMethods.nb_inplace_add`."
 
 #: ../../c-api/typeobj.rst:2746
 msgid ""
@@ -4393,6 +4464,13 @@ msgid ""
 "augmented assignment ``*=``, after trying numeric in-place multiplication "
 "via the :c:member:`~PyNumberMethods.nb_inplace_multiply` slot."
 msgstr ""
+"Ця функція використовується :c:func:`PySequence_InPlaceRepeat` і має такий "
+"самий підпис. Він повинен змінити свій перший операнд і повернути його. Цей "
+"слот можна залишити ``NULL``, у цьому випадку :c:func:`!"
+"PySequence_InPlaceRepeat` повернеться до :c:func:`PySequence_Repeat`. Він "
+"також використовується розширеним призначенням ``*=`` після спроби числового "
+"множення на місці через слот :c:member:`~PyNumberMethods."
+"nb_inplace_multiply`."
 
 #: ../../c-api/typeobj.rst:2757
 msgid "Buffer Object Structures"

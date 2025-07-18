@@ -97,7 +97,7 @@ msgstr ""
 
 #: ../../c-api/reflection.rst:61
 msgid "See also :c:func:`PyThreadState_GetFrame`."
-msgstr ""
+msgstr "Дивіться також :c:func:`PyThreadState_GetFrame`."
 
 #: ../../c-api/reflection.rst:74
 msgid ""

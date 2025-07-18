@@ -141,6 +141,10 @@ msgid ""
 "This eases the transition from dictionary based scripts to those requiring "
 "persistent storage."
 msgstr ""
+"Об'єкти полиці підтримують більшість методів і операцій, які підтримуються "
+"словниками (крім копіювання, конструкторів і операторів ``|`` і ``|=``). Це "
+"спрощує перехід від сценаріїв на основі словників до сценаріїв, які "
+"потребують постійного зберігання."
 
 #: ../../library/shelve.rst:72
 msgid "Two additional methods are supported:"

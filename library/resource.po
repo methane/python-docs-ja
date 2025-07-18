@@ -157,7 +157,7 @@ msgstr ""
 
 #: ../../library/resource.rst:81
 msgid "VxWorks only supports setting :data:`RLIMIT_NOFILE`."
-msgstr ""
+msgstr "VxWorks підтримує лише налаштування :data:`RLIMIT_NOFILE`."
 
 #: ../../library/resource.rst:83
 msgid ""
@@ -447,7 +447,7 @@ msgstr ":attr:`ru_utime`"
 
 #: ../../library/resource.rst:316
 msgid "time in user mode (float seconds)"
-msgstr ""
+msgstr "час у режимі користувача (секунд з плаваючою точкою)"
 
 #: ../../library/resource.rst:318
 msgid "``1``"
@@ -459,7 +459,7 @@ msgstr ":attr:`ru_stime`"
 
 #: ../../library/resource.rst:318
 msgid "time in system mode (float seconds)"
-msgstr ""
+msgstr "час у системному режимі (секунд з плаваючою точкою)"
 
 #: ../../library/resource.rst:320
 msgid "``2``"

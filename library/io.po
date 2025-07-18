@@ -576,7 +576,7 @@ msgstr "I/O 基底クラス"
 
 #: ../../library/io.rst:322
 msgid "The abstract base class for all I/O classes."
-msgstr ""
+msgstr "Абстрактний базовий клас для всіх класів введення-виведення."
 
 #: ../../library/io.rst:324
 msgid ""

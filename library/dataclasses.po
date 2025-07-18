@@ -602,7 +602,7 @@ msgstr ""
 
 #: ../../library/dataclasses.rst:388 ../../library/dataclasses.rst:408
 msgid "To create a shallow copy, the following workaround may be used::"
-msgstr ""
+msgstr "Щоб створити дрібну копію, можна використати такий обхідний шлях:"
 
 #: ../../library/dataclasses.rst:390
 msgid "{field.name: getattr(obj, field.name) for field in fields(obj)}"

@@ -395,7 +395,7 @@ msgstr ""
 
 #: ../../howto/isolating-extensions.rst:273
 msgid "Heap Types"
-msgstr ""
+msgstr "Типи купи"
 
 #: ../../howto/isolating-extensions.rst:275
 msgid ""

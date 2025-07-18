@@ -199,6 +199,9 @@ msgid ""
 "This call used to raise a ``code.__new__`` audit event for each code object. "
 "Now it raises a single ``marshal.load`` event for the entire load operation."
 msgstr ""
+"Цей виклик використовувався для виклику події аудиту ``code.__new__`` для "
+"кожного об’єкта коду. Тепер він викликає одну подію ``marshal.load`` для "
+"всієї операції завантаження."
 
 #: ../../library/marshal.rst:123
 msgid ""
@@ -238,6 +241,9 @@ msgid ""
 "This call used to raise a ``code.__new__`` audit event for each code object. "
 "Now it raises a single ``marshal.loads`` event for the entire load operation."
 msgstr ""
+"Цей виклик використовувався для виклику події аудиту ``code.__new__`` для "
+"кожного об’єкта коду. Тепер він викликає одну подію ``marshal.loads`` для "
+"всієї операції завантаження."
 
 #: ../../library/marshal.rst:155
 msgid "In addition, the following constants are defined:"
